@@ -1,20 +1,22 @@
 *{
     margin:0px;
     padding: 0px;
+  /*  box-sizing: border-box;*/
 }
 #head{
     background-color: blanchedalmond;
     color: black;
     
 }
-#log{
-    width:100px;
+ #log{
+    width:1000px;
     float:left;
-    height:15px;
+    height:25px;
 }
 #number{
-    width:800px;
+    width:1000px;
     float: right;
+    height:25px;
 }
 #header{
 text-align: center;
@@ -23,66 +25,87 @@ color: #f5f5f5;
 padding-top: 10px;
 }
 #icons{
-width:910px;
+width:100%;
 margin: auto;
-padding:220px ;
+padding-left:150px;
+padding-top: 100px;
+padding-right: 100px;
+padding-bottom: 300px;
 background-color: black;
 color:white;
 height: 200px;
 }
 .one{
     height: 200px;;
-    width:300px;
+    width:350px;
     float:left;
     text-align: center;
     background-color: thistle;
     border:1px groove gray ;
     border-radius: 20px;
 }
-.two{
+.one img{
+    padding: 10px;
+}
+ .two{
     height: 200px;
-    width:300px;
+    width:350px;
     float:left;
     text-align: center;
     background-color: thistle;
     border:1px groove gray ;
     border-radius: 20px;
+}
+.two img{
+    padding: 10px;
 }
 .three{
     height: 200px;;
-    width:300px;
+    width:350px;
     float:left;
     text-align: center;
     background-color: thistle;
     border:1px groove gray ;
     border-radius: 20px;
 }
+.three img{
+    padding: 10px;
+}
 .four{
     height: 200px;;
-    width:300px;
+    width:350px;
     float:left;
     text-align: center;
     background-color: thistle;
     border:1px groove gray ;
     border-radius:  20px;
 }
+.four img{
+    padding: 10px;
+}
 .five{
     height: 200px;;
-    width:300px;
+    width:350px;
     float:left;
     text-align: center;
     background-color: thistle;
     border:1px groove gray ;
     border-radius: 20px;
 }
+.five img{
+    padding: 10px;
+}
 .six{
     height: 200px;;
-    width:300px;
+    width:350px;
     float:left;
     text-align: center;
     background-color: thistle;
     border:1px groove gray ;
     border-radius: 20px;
+}
+.six img{
+    padding: 10px;
 }
 .footer{
     background-color: lightslategray;
@@ -94,5 +117,5 @@ height: 200px;
  margin-bottom: 50px;
   }
   .clear{
-      clear:both
+      clear:both;
   }
